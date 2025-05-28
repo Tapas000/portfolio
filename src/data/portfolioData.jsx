@@ -5,7 +5,6 @@ export const personalInfo = {
   name: "Aditi Arya",
   title: "Full Stack Developer",
   email: "aditiarya1511@gmail.com",
-  phone: "+91 8865818466",
   linkedin: "https://linkedin.com/in/aditiarya37",
   github: "https://github.com/aditiarya37",
   resumeLink: "/AditiAryaResume.pdf", // Make sure your resume is in public/
