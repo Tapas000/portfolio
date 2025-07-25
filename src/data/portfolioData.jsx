@@ -1,158 +1,149 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaReact, FaNodeJs, FaDatabase, FaCode, FaHtml5, FaCss3Alt, FaWordpress, FaFigma } from 'react-icons/fa'; // Example icons
-import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiJavascript, SiTypescript, SiCplusplus, SiPython } from 'react-icons/si'; // More specific tech icons
+import { FaGithub, FaLinkedin, FaEnvelope, FaReact, FaNodeJs, FaDatabase, FaCode, FaHtml5, FaCss3Alt, FaWordpress, FaFigma } from 'react-icons/fa';
+import { SiMongodb, SiCplusplus, SiPython, SiApachekafka, SiPytorch, SiPandas, SiApacheairflow, SiApachespark, SiDocker, SiNumpy, SiLangchain, SiC, SiLatex, SiPostgresql, SiGooglecloud } from 'react-icons/si';
+
 
 export const personalInfo = {
-  name: "Aditi Arya",
-  title: "Full Stack Developer",
-  email: "aditiarya1511@gmail.com",
-  linkedin: "https://linkedin.com/in/aditiarya37",
-  github: "https://github.com/aditiarya37",
-  resumeLink: "/AditiAryaResume.pdf", // Make sure your resume is in public/
-  bio: "Innovative Full Stack Developer passionate about creating seamless and impactful web solutions. Eager to leverage modern technologies to solve real-world problems and contribute to dynamic team environments.",
-  shortBio: "I build things for the web." // For Hero section
+  name: "Tapas Barman",
+  title: "Aspiring Data Engineer",
+  email: "tb61946@gmail.com",
+  linkedin: "https://www.linkedin.com/in/tapas-barman-2661161a0/",
+  github: "https://github.com/Tapas000",
+  resumeLink: "https://drive.google.com/file/d/1LIgsumw1Z9X8U_pvAq3bcSwVSLeDghww/view?usp=sharing",
+  bio: "Aspiring Data Engineer with experience in building scalable data pipelines and real-time systems using tools like Kafka, Spark, Airflow, and FastAPI.",
+  shortBio: "I build data systems where structure meets clarity—and insights come alive."
 };
 
 export const education = [
   {
-    institution: "Chandigarh University",
-    degree: "Bachelor of Engineering in Computer Science",
-    duration: "Aug 2023 – Present",
-    score: "CGPA: 8.17/10",
+    institution: "Indian Institute of Information Technology, Lucknow",
+    degree: "MSc in Data Science",
+    duration: "2024 – Present",
+    score: "CGPA: 8.85/10",
   },
   {
-    institution: "Namdev Public School",
+    institution: "APC Roy Government College",
+    degree: "BSc Honors in Physics",
+    duration: "2020 – 2023",
+    score: "CGPA: 8.23/10",
+  },
+  {
+    institution: "Kendriya Vidyalaya BSF Gandhinagar",
     degree: "Class 12th CBSE",
-    duration: "April 2022 - May 2023",
-    score: "96.5%",
-  },
-  {
-    institution: "Namdev Public School",
-    degree: "Class 10th CBSE",
-    duration: "April 2020 - May 2021",
-    score: "95.17%",
+    duration: "April 2019 - May 2020",
+    score: "86.4%",
   },
 ];
 
 export const projects = [
   {
-    title: "AgriSure",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
-    description: "Improved financial access for over 12,000 farmers boosting microloan approvals by 35% via CIBIL-based lending, integrating AI insights, and Hindi support via Google Translation. Engineered the full-stack system, handling frontend UI, backend API and database management.",
-    date: "March 2025 – Present",
-    githubLink: "https://github.com/aditiarya37/AgriSure", // Replace with actual link
-    liveLink: null, // Replace with actual link if available
-    category: "Full Stack",
-    icon: <FaReact size={24} className="text-accent-1"/>
-  },
-  {
-    title: "BuildBridge",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
-    description: "Streamlined contracting for construction projects, reducing deal closure time by 40% via an AI-based platform matching builders with clients. Developed both frontend and backend, integrating user authentication, contract storage, and a responsive UI.",
-    date: "March 2025 – Present",
-    githubLink: "https://github.com/aditiarya37/BuildBridge", // Replace with actual link
-    liveLink: "https://build-bridge-seven.vercel.app/",
-    category: "Full Stack",
-    icon: <FaReact size={24} className="text-accent-1"/>
-  },
-  {
-    title: "FarmConnect",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
-    description: "Optimized crop storage for farmers, increasing warehouse occupancy by 25% via an AI-powered marketplace connecting farmers with warehouse owners. Developed a seamless booking system with real-time warehouse availability and farmer-friendly UI.",
-    date: "Feb 2025 – Present",
-    githubLink: "https://github.com/aditiarya37/FarmConnect",
-    liveLink: "https://farm-connect-iota-psi.vercel.app/",
-    category: "Full Stack",
-    icon: <FaReact size={24} className="text-accent-1"/>
-  },
-  {
-    title: "WealthWise",
-    tech: ["React JS", "Node JS", "Firebase", "API Integration"],
-    description: "Enhanced financial literacy and user engagement by 40% through an interactive fintech platform integrating gamification. Developed an engaging React UI with gamified elements ensuring smooth user interactions.",
-    date: "Jan 2025 – Present",
-    githubLink: "https://github.com/aditiarya37/WealthWise",
-    liveLink: "https://wealthwisefinance.vercel.app/",
-    category: "Fintech",
-    icon: <SiFirebase size={24} className="text-accent-1"/>
-  },
-  {
-    title: "Blood Shortage Survey and Dashboard",
-    tech: ["React.js", "Node.js", "MongoDB"],
-    description: "Increased efficiency of blood shortage tracking for healthcare organizations by 60% through a real-time analytics dashboard. Built an intuitive React.js dashboard with real-time charts and data visualizations.",
-    date: "Jan 2025 – Present",
-    githubLink: "https://github.com/aditiarya37/BloodLink", // Replace with actual link
+    title: "Real-Time Inventory Management System",
+    tech: ["Kafka", "PostgreSQL", "Streamlit"],
+    description: "Simulates real-time inventory tracking using Kafka and PostgreSQL, with real-time dashboards in Streamlit.",
+    date: "2025",
+    githubLink: "https://github.com/Tapas000/Real-Time-Grocery-Stock-Tracker-BigData",
     liveLink: null,
-    category: "Healthcare",
+    category: "Data Engineering",
+    icon: <SiApachekafka size={24} className="text-accent-1"/>
+  },
+  {
+    title: "Job Data ETL Pipeline with LLM Enrichment",
+    tech: ["Airflow", "LangChain", "PostgreSQL"],
+    description: "Extracts job listings, enriches data using LLMs, and stores results in PostgreSQL with Airflow orchestration.",
+    date: "2025",
+    githubLink: "https://github.com/Tapas000/Airflow-LLM-ETL-Workflow-Project",
+    liveLink: null,
+    category: "ETL Pipeline",
+    icon: <SiApacheairflow size={24} className="text-accent-1"/>
+  },
+  {
+    title: "AI Medical Chatbot",
+    tech: ["LangChain", "Streamlit", "Grok API"],
+    description: "An interactive AI-powered chatbot that answers medical queries using LangChain, integrated with dynamic Streamlit frontend.",
+    date: "2025",
+    githubLink: "https://github.com/Tapas000/AiMedicalAssistant",
+    liveLink: null,
+    category: "Healthcare AI",
+    icon: <SiPython size={24} className="text-accent-1"/>
+  },
+  {
+    title: "Udaan Translate API",
+    tech: ["FastAPI", "LangChain", "LLaMA3"],
+    description: "A lightweight micro-translation API built for Project Udaan (IIT Bombay), supporting Indian languages with LLaMA3 and scalable endpoints.",
+    date: "2025",
+    githubLink: "https://github.com/Tapas000/Translation-Microservice-IIT-Bombay",
+    liveLink: null,
+    category: "Microservice",
     icon: <FaDatabase size={24} className="text-accent-1"/>
   },
+  {
+    title: "Wikipedia Q&A Assistant",
+    tech: ["LangChain", "LLaMA3", "Pinecone"],
+    description: "Builds a chatbot that retrieves Wikipedia articles dynamically and answers questions using Groq’s LLaMA3 and Pinecone for semantic search.",
+    date: "2025",
+    githubLink: "https://github.com/Tapas000/Wikipedia-Powered-Chatbot",
+    liveLink: null,
+    category: "LLM/RAG",
+    icon: <SiPython size={24} className="text-accent-1"/>
+  },
+  
 ];
 
 export const skills = {
   languages: [
-    { name: "C/C++", icon: <SiCplusplus /> },
-    { name: "JavaScript", icon: <SiJavascript /> },
-    // { name: "TypeScript", icon: <SiTypescript /> }, // Add if you use it
-    { name: "HTML5", icon: <FaHtml5 /> },
-    { name: "CSS3", icon: <FaCss3Alt /> },
+    { name: "Python", icon: <SiPython /> },
     { name: "SQL", icon: <FaDatabase /> },
+    { name: "Scala", icon: <FaCode /> },
+    { name: "C/C++", icon: <SiCplusplus /> },
   ],
   frameworksAndLibraries: [
-    { name: "React JS", icon: <FaReact /> },
-    { name: "Node JS", icon: <FaNodeJs /> },
-    { name: "Express JS", icon: <SiExpress /> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss /> }, // You are using it!
-    { name: "Wordpress", icon: <FaWordpress /> },
+    { name: "Pandas", icon: <SiPandas /> },
+    { name: "NumPy", icon: <SiNumpy /> },
+    { name: "PyTorch", icon: <SiPytorch /> },
+    { name: "LangChain", icon: <SiLangchain /> },
+    { name: "FastAPI", icon: <FaNodeJs /> },
+    { name: "Streamlit", icon: <FaReact /> },
   ],
   toolsAndPlatforms: [
+    { name: "Apache Kafka", icon: <SiApachekafka /> },
+    { name: "Apache Spark", icon: <SiApachespark /> },
+    { name: "Apache Airflow", icon: <SiApacheairflow /> },
     { name: "MongoDB", icon: <SiMongodb /> },
-    { name: "Firebase", icon: <SiFirebase /> },
+    { name: "Docker", icon: <SiDocker /> },
     { name: "Git & GitHub", icon: <FaGithub /> },
-    { name: "VS Code", icon: <FaCode /> }, // Or a more specific icon
-    { name: "Postman", icon: <FaCode /> }, // Placeholder icon
-    { name: "Google Cloud Platform", icon: <FaCode /> }, // Placeholder icon
   ],
   coreCompetencies: [
-    "Problem Solving",
-    "Presentations",
-    "Oratory",
-    "Team Leadership",
-    "Event Hosting",
-    "Agile Methodologies"
+    "Big Data Pipeline Design",
+    "ETL / ELT Workflow Automation",
+    "Stream Processing",
+    "LLM/RAG Integration",
+    "Data Cleaning & Wrangling",
+    "API Development",
+    "Cloud Tools & Deployment"
   ]
 };
 
 export const leadershipAndInvolvement = [
   {
-    role: "Junior Partner",
-    organization: "The Apex Circle (TAC)",
-    duration: "Jan 2025 – Present",
+    role: "AI Software Research Intern",
+    organization: "IIT Bombay",
+    duration: "July 2025 – Present",
     points: [
-      "Participated in over 15 hackathons and technical events, collaborating with peers to build innovative solutions.",
-      "Mentored juniors by sharing knowledge, guiding them in projects, and fostering a strong tech community.",
+      "Developing a low-code medical application in Zoho Creator for patient management with role-based access and real-time dashboards.",
+      "Built a multilingual translation API (Udaan Translate) using FastAPI, LLaMA 3.3 (Groq), LangChain, SQLite logging, and robust validation."
     ],
   },
   {
-    role: "Technical Executive",
-    organization: "Computer Society of India, CU Student Branch",
-    duration: "Nov 2024 – Present",
+    role: "Freelance AI Tutor & Mathematician",
+    organization: "Outlier",
+    duration: "Sept 2024 – Dec 2024",
     points: [
-      "Organized 5+ workshops, hackathons, and competitions to enhance student learning and engagement.",
-      "Coordinated with faculty and industry experts to bring technical opportunities to students.",
+      "Provided expert guidance on training AI models, leveraging advanced mathematical concepts to improve algorithmic accuracy",
     ],
-  },
-  {
-    role: "AMCAT 2nd Rank Holder",
-    organization: "Chandigarh University",
-    duration: "Sept 2024",
-    points: [
-      "Secured 2nd rank in AMCAT among 5500+ peers, showcasing strong analytical and problem-solving skills.",
-      "Demonstrated excellence in aptitude, coding, and domain-specific assessments, outperforming competition.",
-    ],
-  },
+  }
 ];
 
 export const socialLinks = {
   linkedin: { url: personalInfo.linkedin, icon: <FaLinkedin size={24} /> },
   github: { url: personalInfo.github, icon: <FaGithub size={24} /> },
   email: { url: `mailto:${personalInfo.email}`, icon: <FaEnvelope size={24} /> },
-  // phone: { url: `tel:${personalInfo.phone}`, icon: <FaPhone size={24} /> }, // Optional
 };

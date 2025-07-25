@@ -30,7 +30,7 @@ const About = () => {
           transition={{ duration: 0.6 }}
         >
           <p className="text-lg text-text-secondary leading-relaxed">
-            Hello! I'm Aditi, a driven Full Stack Developer with a strong foundation in computer science and a knack for crafting efficient, user-centric applications. My journey into tech is fueled by a desire to learn, innovate, and contribute to projects that make a difference. I thrive in collaborative environments and am always excited to tackle new challenges.
+           "Hello! I'm Tapas, a passionate Data Engineer with a strong foundation in mathematics and a focus on building reliable, scalable data systems. I love crafting solutions that blend clean architecture with real-world impact, whether it's through real-time stream processing, ETL automation, or integrating cutting-edge LLMs. I'm always eager to learn, contribute, and collaborate on projects that drive meaningful change.",
           </p>
           {/* Optional: Add a profile image here */}
           {/* <img src={profilePlaceholder} alt="Aditi Arya" className="w-40 h-40 rounded-full mx-auto my-6 border-4 border-accent-1" /> */}

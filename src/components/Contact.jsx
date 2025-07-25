@@ -28,7 +28,7 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
         >
           <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-            I'm currently open to new opportunities and collaborations. Whether you have a project in mind, a question, or just want to say hi, my inbox is always open. I'll try my best to get back to you!
+            "I'm currently open to exciting data-driven opportunities, collaborations, and impactful projects. If you have something in mind—whether it's building data pipelines, exploring LLM integrations, or just exchanging ideas—feel free to reach out. My inbox is always open, and I'll do my best to respond promptly!"
           </p>
           <a
             href={`mailto:${personalInfo.email}`}

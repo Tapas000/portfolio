@@ -19,22 +19,25 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h3 className="text-accent-1 font-mono text-lg sm:text-xl mb-3">
-            Hi, my name is
+          <h3 className="-ml-10 text-accent-1 font-mono text-lg sm:text-xl mb-3">
+            Hi, my name is   
           </h3>
-          <h1 className="text-5xl sm:text-7xl md:text-8xl font-bold text-text-primary mb-4">
-            {personalInfo.name}.
+          <h1 className="ml-8 text-5xl sm:text-7xl md:text-8xl font-bold text-text-primary mb-4">
+            <span>Tapas</span>
+            <span className="ml-6">Barman.</span>
           </h1>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-text-secondary mb-6">
             <TypeAnimation
               sequence={[
-                'I build things for the web.',
+                'I build data pipelines.',
                 2000,
-                'I am a Full Stack Developer.',
+                'I am an aspiring Data Engineer.',
                 2000,
-                'I love to code.',
+                'I work with Big Data systems.',
                 2000,
-                'I solve problems.',
+                'I deploy on the Cloud.',
+                2000,
+                'I love to learn and build.',
                 2000,
               ]}
               wrapper="span"
