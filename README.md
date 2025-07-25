@@ -1,6 +1,2 @@
-# 🌟 Aditi Arya  
-
-### 👩‍💻 Welcome to my personal portfolio!  
-Explore my work and projects below 👇👇👇  
-
-🔗 [Check it out](https://aditiarya.netlify.app/)
+👨‍💻 Welcome to my personal portfolio!
+Dive into my projects where I blend real-time data, scalable systems, and cutting-edge AI to solve impactful problems.
